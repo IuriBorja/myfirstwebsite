@@ -1,11 +1,6 @@
 body {
-    background-image: image(dev) ;
+    background-image: url("image/Dev-Full-Stack-1280x720.png") ;
 }
-
-
-
-
-
 
 .box {
     background-color: #73c8ef;
@@ -13,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .box2 {
@@ -25,7 +20,21 @@ body {
 }
 
 .box3 {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 60%;
+    border-radius: 8px;
     background-color:#ffd2bf ;
+}
+
+.box4 {
+   display: flex;
+   
+   
+}
+.iuri {
+    opacity: 1;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    padding: 20px;
 }
