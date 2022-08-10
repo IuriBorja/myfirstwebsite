@@ -28,13 +28,62 @@ body {
 
 .box4 {
    display: flex;
-   
-   
+   justify-content: center;
 }
+
 .iuri {
-    opacity: 1;
-    width: 40%;
-    height: 40%;
     border-radius: 50%;
-    padding: 20px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    opacity: 1;
+}
+
+.foot {
+
+}    
+
+.foot2 {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+li {
+    list-style-type: none;    
+  }
+
+
+* {
+    text-decoration: none;
+}
+
+.linked {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: #3498db;
+    color: black;
+     box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+     -webkit-transition: all 150ms ease-in-out;
+     transition: all 150ms ease-in-out;
+     border-radius: 5px;
+}
+
+.linked:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+.git {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: #3498db;
+    color: black;
+     box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+     -webkit-transition: all 150ms ease-in-out;
+     transition: all 150ms ease-in-out;
+     border-radius: 5px;
+}
+
+.git:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
